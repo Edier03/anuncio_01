@@ -1,0 +1,32 @@
+html{
+    background: rgb(0, 0, 0);
+}
+.enlace{
+    background-color: #055;
+    display: inline-block;
+        border: solid black;
+        border-radius: 9px;
+        text-decoration: white;
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+        transition: 0.3s all ease-in-out;
+}
+img{
+    background: rgb(132, 0, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 11px;
+}
+
+.contenedor{
+    background-color: rgb(132, 0, 0);
+    border-radius: 30px;
+    border: 1px sold white;
+    width: 90%;
+}
+
+.enlace:hover{
+    padding: 15px;
+    transform: scale(1.1);
+}
